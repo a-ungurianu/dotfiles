@@ -3,3 +3,5 @@
 	name = Alex Ungurianu
 [core]
 	autocrlf = input
+[push]
+	default = simple
