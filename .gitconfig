@@ -5,3 +5,7 @@
 	autocrlf = input
 [push]
 	default = simple
+[merge]
+	tool = meld
+[diff]
+	tool = meld
