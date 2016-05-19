@@ -1,0 +1,21 @@
+{
+	"always_show_minimap_viewport": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Inconsolata for Powerline",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true
+}
