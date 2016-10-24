@@ -2,9 +2,30 @@
 " Cancel the compatibility with Vi. Essential if you want
 " to enjoy the features of Vim
 
+" Both of these are required by Vundle
 set nocompatible
+filetype off
 
-call pathogen#infect()
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'Yggdroot/indentLine'
+
+Plugin 'vim-airline/vim-airline'
+
+Plugin 'tpope/vim-fugitive'
+call vundle#end()
+filetype plugin indent on
+
+
+" airline config stuff
+set laststatus=2
+let g:airline_powerline_fonts = 1
 
 " -- Display
 set title		" Update the title of your window or your terminal
