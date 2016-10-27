@@ -3,9 +3,6 @@
 	name = Alex Ungurianu
 [core]
 	autocrlf = input
+	editor = vim
 [push]
 	default = simple
-[merge]
-	tool = meld
-[diff]
-	tool = meld
