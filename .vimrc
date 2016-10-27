@@ -19,6 +19,9 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'vim-airline/vim-airline'
 
 Plugin 'tpope/vim-fugitive'
+
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()
 filetype plugin indent on
 
